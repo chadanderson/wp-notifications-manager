@@ -3,7 +3,7 @@ Contributors: c.anderson3
 Tags: notifications, new user registration, password change
 Requires at least: 3.1
 Tested up to: 3.8.1
-Stable tag: trunk
+Stable tag: 1.0
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
