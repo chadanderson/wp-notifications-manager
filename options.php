@@ -166,24 +166,24 @@ function wpnm_moderator_notification_callback() {
 /**
  * Renders checkbox to enable user registration notifications
  * 
- * @since 1.0
+ * @since 1.1
  * 
  * 
  */
 function wpnm_enable_user_registration_notification_callback($args) {
-	$html = '<input type="checkbox" id="wpnm_enable_user_registration_notification" name="wpnm_enable_user_registration_notification" value="1" ' . checked(1, get_option('wpnm_enable_user_registration_notification'), false) . '/>';
+	$html = '<input type="checkbox" id="wpnm_enable_user_registration_notification" name="wpnm_enable_user_registration_notification" value="1" ' . esc_attr( checked(1, get_option('wpnm_enable_user_registration_notification'), false) ) . '/>';
 
 	echo $html;
 }
 /**
  * Renders text field in input email address for user registration notifications
  * 
- * @since 1.0
+ * @since 1.1
  * 
  * 
  */
 function wpnm_user_registration_email_callback($args) {
-	$html = '<input type="text" id="wpnm_user_registration_email" name="wpnm_user_registration_email" value="' . get_option('wpnm_user_registration_email') . '" />';
+	$html = '<input type="text" id="wpnm_user_registration_email" name="wpnm_user_registration_email" value="' . esc_attr( get_option('wpnm_user_registration_email') ) . '" />';
 
 	echo $html;
 }
@@ -191,12 +191,12 @@ function wpnm_user_registration_email_callback($args) {
 /**
  * Renders checkbox to enable user registration notifications
  * 
- * @since 1.0
+ * @since 1.1
  * 
  * 
  */
 function wpnm_enable_password_change_notification_callback($args) {
-	$html = '<input type="checkbox" id="wpnm_enable_password_change_notification" name="wpnm_enable_password_change_notification" value="1" ' . checked(1, get_option('wpnm_enable_password_change_notification'), false) . '/>';
+	$html = '<input type="checkbox" id="wpnm_enable_password_change_notification" name="wpnm_enable_password_change_notification" value="1" ' . esc_attr( checked(1, get_option('wpnm_enable_password_change_notification'), false) ) . '/>';
 
 	echo $html;
 }
@@ -204,12 +204,12 @@ function wpnm_enable_password_change_notification_callback($args) {
 /**
  * Renders text field in input email address for password change notifications
  * 
- * @since 1.0
+ * @since 1.1
  * 
  * 
  */
 function wpnm_password_change_email_callback($args) {
-	$html = '<input type="text" id="wpnm_password_change_email" name="wpnm_password_change_email" value="' . get_option('wpnm_password_change_email') . '" />';
+	$html = '<input type="text" id="wpnm_password_change_email" name="wpnm_password_change_email" value="' . esc_attr( get_option('wpnm_password_change_email') ) . '" />';
 
 	echo $html;
 }

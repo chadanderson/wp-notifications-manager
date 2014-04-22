@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WP Notifications Manager
  * Description: Allows you to manage new user registration & password change notifications. You can enable/disable the notifications and also specify the email address to which you want the notifications sent.
- * Version: 1.0
+ * Version: 1.1
  * Author: Chad Anderson
  * Author URI: http://chadanderson.me
  * License: GPL2

@@ -2,8 +2,8 @@
 Contributors: c.anderson3
 Tags: notifications, new user registration, password change
 Requires at least: 3.1
-Tested up to: 3.8.1
-Stable tag: 1.0
+Tested up to: 3.9
+Stable tag: 1.1
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,10 +29,18 @@ none
 
 == Changelog ==
 
+= 1.1 =
+Security enhancements
+WordPress 3.9 ready
+
 = 1.0 =
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.1 =
+Security enhancements
+WordPress 3.9 ready
 
 = 1.0 =
 This is the initial release
